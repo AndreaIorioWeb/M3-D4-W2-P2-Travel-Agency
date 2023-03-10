@@ -152,6 +152,26 @@ background-color: rgb(2, 146, 138);
 
 
 
+.bottone{
+    width: 100px;
+    height: 50px ;
+    background-color: rgb(229, 244, 243);
+    color: rgb(2, 146, 138);
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.text-left{
+    color: white;
+    padding-top: 10px;
+}
+
+.badge{
+    color: red;
+}
+
+
 
 
 
