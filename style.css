@@ -174,7 +174,9 @@ background-color: rgb(2, 146, 138);
 
 
 
-
+.img-offerta{
+    object-fit: cover;
+}
 
 
 
