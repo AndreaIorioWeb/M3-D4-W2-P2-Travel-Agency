@@ -178,6 +178,26 @@ background-color: rgb(2, 146, 138);
     object-fit: cover;
 }
 
+.card-body-top{
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+
+
+.hot span{
+    right: 5px;
+    top: 5px;
+    z-index: 2;
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 900;
+    
+}
+
 
 
 

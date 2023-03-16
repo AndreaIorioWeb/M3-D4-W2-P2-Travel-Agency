@@ -2,7 +2,7 @@
 function clickBottone() {
     for (let section of document.querySelectorAll('section')) {
         section.children[0].classList.add('collapse');
-        section.children[0].classList.add('evento');
+        section.children[0].classList.add('show');
         section.innerHTML = `
         <button class="bottone btn btn-outline-light toggle-btn" data-bs-target="#${section.id} > div" data-bs-toggle="collapse">ON/OFF</button>` + section.innerHTML;
     }
@@ -18,13 +18,15 @@ function footer() {
 
 
 
-function badge() {
-    let numeriCard =document.querySelectorAll('#badge .card-body')
+
+
+function offerta() {
+    let numeriCard =document.querySelectorAll('#offerte .hot')
     for (let i = 0; i < numeriCard.length; i++) {
         let badge = numeriCard[i]
-        let span = '<span style="color: blue;"> HOT </span>'
-        badge.innerHTML += sapn  
-        span.style=color
+        let span = `<span style=" color:black;"> HOT </span>`
+        badge.innerHTML += span 
+        
     }
 }
 
@@ -40,6 +42,6 @@ function invisibile() {
 window.onload = function () {
     clickBottone()
     footer()
-    badge()
+    offerta()
     
 }
